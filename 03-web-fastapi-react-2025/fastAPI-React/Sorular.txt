@@ -1,0 +1,103 @@
+
+SORU 1: FastAPI hangi programlama dili ile s kullanılır?
+
+A) Java
+B) Python
+C) C#
+D) JavaScript
+E) PHP
+
+CEVAP: B
+
+
+SORU 2: FastAPI projemizi çalıştırdığımızda, otomatik oluşan "Swagger" dokümantasyon sayfasına hangi adresle ulaşırız?
+
+A) /home
+B) /admin
+C) /docs
+D) /login
+E) /api
+
+CEVAP: C
+
+SORU 3: Sunucudan veri "istemek" veya veri "okumak" için genellikle hangi HTTP metodu kullanılır? (Örn: Ürün listesini getirmek)
+
+A) POST
+B) DELETE
+C) GET
+D) PUT
+E) UPDATE
+
+CEVAP: C
+
+SORU 4: Sunucuya yeni bir veri "göndermek" veya "kayıt oluşturmak" için genellikle hangi HTTP metodu kullanılır? (Örn: Yeni üye kaydı yapmak)
+
+A) GET
+B) POST
+C) READ
+D) HEAD
+E) DELETE
+
+CEVAP: B
+
+
+SORU 5: FastAPI projesini terminalden (komut satırından) başlatmak için genellikle hangi komut kullanılır?
+
+A) python start
+B) npm start
+C) uvicorn main:app --reload
+D) go run main
+E) java -jar app.jar
+
+CEVAP: C
+
+SORU 6: Web tarayıcısında (Chrome, Edge vb.) bir adrese girip Enter'a bastığımızda, tarayıcı arka planda varsayılan olarak hangi isteği atar?
+
+A) DELETE isteği
+B) POST isteği
+C) PUT isteği
+D) GET isteği
+E) PATCH isteği
+
+CEVAP: D
+
+SORU 7: FastAPI kütüphanesini bilgisayarımıza indirmek ve kurmak için terminale hangi komutu yazarız?
+
+A) npm install fastapi
+B) git clone fastapi
+C) apt-get install fastapi
+D) pip install fastapi
+E) download fastapi.exe
+
+CEVAP: D
+
+SORU 8: Aşağıdaki kod parçasında `@app.get("/")` ne anlama gelir?
+
+A) Ana sayfaya (kök dizine) yapılan GET isteklerini (veri okuma) karşılar.
+B) Veritabanını siler.
+C) Uygulamayı kapatır.
+D) Kullanıcıyı engeller.
+E) Ekrana hata mesajı basar.
+
+CEVAP: A
+
+SORU 9: Varsayılan ayarlarda, FastAPI uygulaması yerel bilgisayarımızda (localhost) hangi portta çalışır?
+
+A) 80
+B) 3000
+C) 8080
+D) 8000
+E) 443
+
+CEVAP: D
+
+SORU 10: Kodumuzda `@app.post("/login")` şeklinde bir satır görürsek bu ne anlama gelir?
+
+A) "/login" adresine yapılan GET isteklerini karşılar.
+B) "/login" adresine yapılan POST isteklerini (veri gönderme) karşılar.
+C) "/login" dosyasını bilgisayardan siler.
+D) Login sayfasının rengini değiştirir.
+E) Veritabanı bağlantısını keser.
+
+CEVAP: B
+
